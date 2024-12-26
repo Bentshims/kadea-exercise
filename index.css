@@ -5,11 +5,33 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-main img:nth-child(1){
+header img, footer img{
+    border: 2px solid bisque;
+    width: 35%;
+    height: auto;
+}
+main img{
     width:100%;
     height:auto;
 }
-main img:nth-child(2){
-    width: 400px;
-    height: 300px;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+nav ul{
+    display: flex;
+    gap:5px;
+    margin-right: 10px;
+    list-style: none;
+    border: 2px solid bisque;
+    
+}
+nav ul a{
+    display: flex;
+    text-decoration: none;
+}
+main{
+    padding: 5px 20px;
 }
