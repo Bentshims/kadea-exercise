@@ -35,9 +35,9 @@ nav ul li:last-child a{
     text-decoration: none;
     color: #282c32 ;
 }
-main{
+/* main{
     padding: 5px 20px;
-}
+} */
 button{
     width: 100px;
     height: 28px;
@@ -53,4 +53,20 @@ main button:nth-child(3){
     background-color: #D92950;
     color:#ffffff ;
     border: none;
+}
+.groupArticle{
+    background-color: #FAF3E9;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 16px; */
+    justify-content: center;
+    align-items: center;
+
+}
+.groupArticle article{
+    margin: 32px;
+    padding: 16px;
+    width: 250px;
+    border: 1px solid #282c32;
+    border-radius: 5px;
 }
