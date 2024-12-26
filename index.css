@@ -38,3 +38,19 @@ nav ul li:last-child a{
 main{
     padding: 5px 20px;
 }
+button{
+    width: 100px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: #D92950;
+    color:#ffffff ;
+    border: none;
+}
+main button:nth-child(3){
+    width: 100px;
+    height: 54px;
+    border-radius: 5px;
+    background-color: #D92950;
+    color:#ffffff ;
+    border: none;
+}
