@@ -6,8 +6,7 @@ body{
 
 }
 header img, footer img{
-    border: 2px solid bisque;
-    width: 35%;
+    width: 45%;
     height: auto;
 }
 main img{
@@ -22,15 +21,19 @@ header{
 }
 nav ul{
     display: flex;
-    gap:5px;
-    margin-right: 10px;
+    gap: 36px;
     list-style: none;
-    border: 2px solid bisque;
+    padding: 0;
+    width: 150px;
     
 }
-nav ul a{
-    display: flex;
+nav ul li:first-child a{
     text-decoration: none;
+    color:#D92950 ;
+}
+nav ul li:last-child a{
+    text-decoration: none;
+    color: #282c32 ;
 }
 main{
     padding: 5px 20px;
