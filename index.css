@@ -96,12 +96,42 @@ button{
 
 
 }
+/* formulaire */
+
 .whritter-title h2{
     text-align: center;
     font-size: 36px;
 
 }
+
 .whritter-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border: #282c32 solid 2px;
+
+}
+.item div input{
+    border: #3E3D3D 1px solid;
+    width: 300px;
+    height: 29px;
+    border-radius: 5px;
+
+}
+.whritter-form-items2 div textarea{
+    border: 1px solid #282c32;
+    border-radius: 5px;
+    width: 300px;
+    height: 167px ;
+
+}
+
+
+
+
+/* .whritter-form{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -132,11 +162,15 @@ button{
     flex-direction: column;
     gap: 15px;
 }
+.item div label{
+    text-align: left;
+
+}
 .item div input{
     width: 90%;
     height: 28px;
     border-radius: 5px;
-}
+} */
 .submit{
     width: 200px;
     height: 54px;
