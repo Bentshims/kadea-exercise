@@ -76,7 +76,7 @@ button{
     text-align: center;
 
 }
-.startlearn div a{
+main a{
     color: #D92950;
     text-decoration: none;
 
@@ -182,13 +182,30 @@ button{
 }
 
 /* PAGE :NOS COURS */
-.first-section{
+.first-section, 
+.last-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     padding:20px ;
 }
+.mygrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr) );
+    /* grid-template-rows: repeat(12, 1fr); */
+    gap:10px ;
+    
+}
+.mygrid p{
+    background-color: #FAF3E9;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 5px;
+}
+
 
 
 
