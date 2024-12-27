@@ -107,7 +107,6 @@ button{
     text-align: center;
     flex-direction: column;
     gap: 30px;
-    border: 2px solid bisque;
     padding: 20px 0;
 }
 .whritter-form-items1{
@@ -146,4 +145,23 @@ button{
     color:#ffffff ;
     border: none;
 
+}
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 48px;
+
+}
+.social{
+    display: flex;
+    gap: 18px;
+}
+.link{
+    width: 20px;
+    height: auto;
 }
