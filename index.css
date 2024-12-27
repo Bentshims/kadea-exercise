@@ -234,3 +234,23 @@ footer {
     width: 20px;
     height: auto;
 }
+@media (min-width: 768px){
+    body{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .starthero{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 33px;
+        padding: 130px 169px 130px 159px;
+    }
+    main img{
+        width: 564px;
+        height: 376px;
+    }
+
+}
