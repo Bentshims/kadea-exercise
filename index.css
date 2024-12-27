@@ -103,34 +103,6 @@ button{
     font-size: 36px;
 
 }
-
-.whritter-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    border: #282c32 solid 2px;
-
-}
-.item div input{
-    border: #3E3D3D 1px solid;
-    width: 300px;
-    height: 29px;
-    border-radius: 5px;
-
-}
-.whritter-form-items2 div textarea{
-    border: 1px solid #282c32;
-    border-radius: 5px;
-    width: 300px;
-    height: 167px ;
-
-}
-
-
-
-
 /* .whritter-form{
     display: flex;
     justify-content: center;
@@ -171,6 +143,34 @@ button{
     height: 28px;
     border-radius: 5px;
 } */
+
+.whritter-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+.item{
+    margin: 16px;
+}
+.item div input{
+    border:1px solid #3E3D3D;
+    width: 300px;
+    height: 29px;
+    border-radius: 5px;
+    margin-top: 7px;
+
+}
+.whritter-form-items2 div textarea{
+    border:1px solid #282c32;
+    border-radius: 5px;
+    width: 300px;
+    height: 167px ;
+    margin-top: 7px;
+
+}
 .submit{
     width: 200px;
     height: 54px;
