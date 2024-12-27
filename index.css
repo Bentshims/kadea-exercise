@@ -180,6 +180,34 @@ button{
     border: none;
 
 }
+
+/* PAGE :NOS COURS */
+.first-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding:20px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 
 footer {
