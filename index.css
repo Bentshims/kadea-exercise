@@ -280,10 +280,6 @@ footer {
     
 
     }
-    .courses{
-        width: 320px;
-        line-height: 120px;
-    }
     .whritter-form{
         position: relative;
         margin-bottom: 100px;
@@ -413,7 +409,7 @@ footer {
     }
     .btn{
        position: absolute;
-      bottom: -100px; /*  padding-top: 57px; remplacé */
+      bottom: -100px; 
       right: 10%;
 
 
@@ -422,6 +418,30 @@ footer {
         width: 278px;
         height: 54px;
         border-radius: 9px;
+    }
+
+    /* PAGE NOS COURS : */
+
+    .first-section{
+        display: flex;
+        flex-direction: row;
+        gap: 28px;
+        height: 519px;
+        padding: 111px 126px 112px 164px;
+    }
+    .mygrid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 71px;
+    }
+    .mygrid p{
+        width: 325px;
+        line-height: 120px;
+    }
+    .mygrid p:nth-child(1){
+        grid-column: 1/2;
+        grid-row: auto;
     }
 
     
