@@ -359,6 +359,71 @@ footer {
         display: flex;
         gap: 36px;
     }
+    main button{
+        width: 182px;
+        height: 54px;
+        border-radius: 9px;
+        font-size: 18px;
+
+    }
+    .starthero{
+        display: flex;
+        flex-direction: row;
+        padding:100px 20px;
+        gap: 20px;
+    }
+    .groupArticle{
+        padding: 134px 0;
+    }
+    main img:nth-of-type(1){
+        width: 350px;
+        height: 300px;
+    }
+    main img{
+        width: 300px;
+        height: 250px;
+    }
+    .beginCode{
+        padding: 80px 50px 80px 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    
+
+    }
+    .whritter-form{
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .whritter-form-items1{
+        display: flex;
+        flex-direction: row;
+    }
+    .whritter-form-items1 div input{
+        width: 310px;
+        height: 57px;
+        border-radius: 9px;
+    }
+    .whritter-form-items2 div textarea{
+        width: 640px;
+        height: 167px;
+        border-radius: 9px;
+    }
+    .btn{
+       position: absolute;
+      bottom: -100px; /*  padding-top: 57px; remplacé */
+      right: 10%;
+
+
+    }
+    .submit{
+        width: 278px;
+        height: 54px;
+        border-radius: 9px;
+    }
+
     
 
    
