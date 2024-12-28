@@ -232,14 +232,6 @@ footer {
     width: 20px;
     height: auto;
 }
-@media (min-width: 786px){
-    header{
-        display: flex;
-        justify-content: center;
-        gap: 798px;
-    }
-
-}
 @media (min-width: 1024px){
     h1,h2{
         font-size: 36px;
@@ -349,3 +341,26 @@ footer {
 
 
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    h1,h2{
+        font-size: 36px;
+    }
+    p,label{
+        font-size: 18px;
+        border-radius: 9px;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        gap: 398px;
+    }
+    nav ul{
+        display: flex;
+        gap: 36px;
+    }
+    
+
+   
+}
+
