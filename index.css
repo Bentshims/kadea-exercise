@@ -236,16 +236,18 @@ footer {
     h1,h2{
         font-size: 36px;
     }
-    p{
+    p,label{
         font-size: 18px;
-    }
-    div,p{
         border-radius: 9px;
     }
     header{
         display: flex;
         justify-content: center;
         gap: 798px;
+    }
+    nav ul{
+        display: flex;
+        gap: 36px;
     }
     .starthero{
         display: flex;
@@ -262,6 +264,13 @@ footer {
         width: 561px;
         height: 296px;
     }
+    main button{
+        width: 182px;
+        height: 54px;
+        border-radius: 9px;
+        font-size: 18px;
+
+    }
     .groupArticle{
         padding: 134px 0;
     }
@@ -274,6 +283,10 @@ footer {
         gap: 43px;
     
 
+    }
+    .whritter-form{
+        position: relative;
+        margin-bottom: 100px;
     }
     .whritter-form-items1{
         display: flex;
@@ -290,8 +303,16 @@ footer {
         border-radius: 9px;
     }
     .btn{
-        margin-left: 75%;
-       padding-top: 57px;
+       position: absolute;
+      bottom: -114px; /*  padding-top: 57px; remplacé */
+      right: 10%;
+
+
+    }
+    .submit{
+        width: 278px;
+        height: 54px;
+        border-radius: 9px;
     }
 
 }
