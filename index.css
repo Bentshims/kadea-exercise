@@ -232,7 +232,15 @@ footer {
     width: 20px;
     height: auto;
 }
-@media (min-width: 768px){
+@media (min-width: 786px){
+    header{
+        display: flex;
+        justify-content: center;
+        gap: 798px;
+    }
+
+}
+@media (min-width: 1024px){
     h1,h2{
         font-size: 36px;
     }
@@ -260,10 +268,6 @@ footer {
         width: 564px;
         height: 376px;
     }
-    main img:nth-of-type(2){
-        width: 561px;
-        height: 296px;
-    }
     main button{
         width: 182px;
         height: 54px;
@@ -283,6 +287,10 @@ footer {
         gap: 43px;
     
 
+    }
+    .courses{
+        width: 320px;
+        line-height: 120px;
     }
     .whritter-form{
         position: relative;
@@ -314,5 +322,30 @@ footer {
         height: 54px;
         border-radius: 9px;
     }
+
+    /* PAGE : NOS COURS  */
+
+    .first-section{
+        display: flex;
+        flex-direction: row;
+        gap: 28px;
+        height: 519px;
+        padding: 111px 126px 112px 164px;
+    }
+    .mygrid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 71px;
+    }
+    .mygrid p{
+        width: 325px;
+        line-height: 120px;
+    }
+    .mygrid p:nth-child(1){
+        grid-column: 1/2;
+        grid-row: auto;
+    }
+
 
 }
