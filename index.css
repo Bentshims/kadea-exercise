@@ -2,34 +2,23 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'poppins', sans-serif;
     color: #3E3D3D;
 }
 header img, footer img{
     width: 116px;
     height: 36px;
+    
 }
 main img{
     width:100%;
     height: auto;
 }
-header{
-    display: flex;
-    align-items: center;
-    gap: 25%;
-    padding: 5px 20px;
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-    width: 100%;
-}
+
 nav ul{
     display: flex;
-    gap: 18px;
+    gap: 16px;
     list-style: none;
-    padding: 0;
 }
 nav ul li:first-child a{
     text-decoration: none;
