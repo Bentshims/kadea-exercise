@@ -234,6 +234,10 @@ footer {
     .groupArticle{
         padding: 134px 0;
     }
+    .groupArticle article{
+        width: 250px;
+        height: 250px;
+    }
     .beginCode{
         padding: 121px 159px 91px 212px;
         display: flex;
