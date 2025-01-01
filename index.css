@@ -338,6 +338,11 @@ footer {
     .groupArticle{
         padding: 134px 0;
     }
+    .groupArticle article{
+        width: 300px;
+        height: 200px;
+        /* padding: 20px; */
+    }
     main img{
         width: 400px;
         height: 400px;
