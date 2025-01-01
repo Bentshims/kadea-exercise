@@ -302,7 +302,7 @@ footer {
 @media (min-width: 768px) and (max-width: 1024px) {
 
     h1,h2{
-        font-size: 36px;
+        font-size: 32px;
     }
     p,label{
         font-size: 18px;
@@ -343,12 +343,12 @@ footer {
         height: 400px;
     }
     .beginCode{
-        padding: 80px 50px 80px 50px;
+        padding: 80px 20px;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 20px;
+        gap: 10px;
     
 
     }
